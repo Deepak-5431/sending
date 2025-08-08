@@ -94,13 +94,13 @@ const Page1 = () => {
           <div className="container mx-auto px-4 flex flex-col md:flex-row items-center justify-center relative z-10">
             <div className="text-center md:text-left md:w-1/2 p-4">
               <h1 className="text-4xl md:text-6xl font-serif text-red-800 mb-4 leading-tight">
-                Mehendi For Every Occasion
+                “Mehendi – Where Every Design Tells a Story.”
               </h1>
               <p className="text-xl md:text-2xl text-gray-700 mb-2">
-                Its not just a colour, its an Emotion.
+                “Adorning Hands, Celebrating Hearts.”
               </p>
               <p className="text-xl md:text-2xl text-gray-700 mb-8">
-                Its a happiness.
+                “Celebrate traditions, your way.”
               </p>
               <button className="px-8 py-3 bg-red-800 text-white text-lg uppercase tracking-wider font-semibold rounded-md shadow-lg hover:bg-red-900 transition duration-300 transform hover:scale-105">
                 SEND MESSAGE
@@ -120,10 +120,10 @@ const Page1 = () => {
         <section className="bg-white py-16">
           <div className="container mx-auto px-4 text-center">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-6">
-              Ankita Mehendi Artist | Bridal, Indian, Arabic, Indo-Arabic & Dubai Style Mehendi Designs in Varanasi
+              Vijay Mehendi Artist | Bridal, Indian, Arabic, Indo-Arabic & Dubai Style Mehendi Designs in Varanasi
             </h2>
             <p className="text-lg text-gray-600 max-w-4xl mx-auto leading-relaxed">
-              Discover exquisite mehendi designs by Ankita Mehendi Artist, a trusted mehendi expert in Varanasi. Specializing in Bridal Mehendi, Indian Mehendi, Arabic Mehendi, Indo-Arabic Mehendi, and Dubai Style Mehendi Designs, we create unique and long-lasting henna art for weddings, festivals and special occasions. Book your session today and experience beautiful, traditional mehendi artistry that elevates every celebration.
+              Whether it's a wedding, festival, or a special celebration, we create stunning, customized henna designs that reflect tradition, creativity, and elegance. Our designs are known for their fine detailing, long-lasting stain, and personal touch.
             </p>
           </div>
         </section>
@@ -139,7 +139,11 @@ const Page1 = () => {
               <div className="flex-grow border-t border-rose-200"></div>
             </div>
             <p className="text-lg text-gray-600 max-w-5xl mx-auto leading-relaxed text-justify">
-              Mehendi goes far beyond its ability to create temporary and striking designs on the skin; it is an artistic tool that unites cultures, inviting people to embrace connection and cherish their differences. It's used to celebrate love, beauty, and grace through special occasions, personal and cultural milestones, or to simply relish its artistic elegance. Mehendi's ability to empower people through its trade and craft is admirable, to say the least, and we aspire to cultivate a brand that magnifies this notion of community and togetherness through artistic expression. Mehendi is a traditional art that has been practiced for centuries back and is still in style. It is believed to bring good luck in a newly wedded couple's life. Connecting from traditional designs to the latest design our Mehendi designers are able for creating every pattern of mehendi on your hand that perfectly defines your personality.
+              At Vijay Mehendi Artist, we believe Mehendi is more than just a beautiful design — it’s a bridge between cultures, a celebration of tradition, and a powerful form of self-expression.
+
+Through every intricate pattern, we aim to tell a story — one that reflects love, grace, and joy. From weddings and festivals to personal milestones, Mehendi marks the moments that matter. It symbolizes good luck, new beginnings, and the timeless beauty of tradition.
+
+With years of experience, our team expertly blends classic charm with contemporary creativity. Whether you desire traditional motifs or modern flair, Vijay Mehendi Artist is dedicated to crafting designs that perfectly reflect your personality and enhance every celebration.
             </p>
           </div>
         </section>
@@ -160,17 +164,21 @@ const Page1 = () => {
                     </div>
                     <div className="md:w-1/2 p-6 md:p-8">
                         <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-                            Ankita is a BMS graduate from VISiT and works at YES Bank as Credit Analyst. Wondering what she is doing here? Well, it's her hobby and she is absolutely in love with Mehendi designing. It's been 8 years since she started drawing her passion on people's hand with Mehendi Cones. Our artists are specialists in all fine arts of applying mehandi. She is creative and think of phenomenal designs that can impact anyone to go WOW. The classic design of mehendi comes out with the amazing design and the colour that it leaves on the palm and around the feet. The superb shade of Mehandi makes any occasion charming and memorable. Connect with her for bulk orders for Wedding and Festivals. Get services delivered at your doorstep.
+                           With over 20 years of experience and more than 1,00,000 happy clients, Vijay Mehendi Artist is one of Varanasi’s most respected names in traditional and contemporary Mehendi art.
+
+What started as a passion has grown into a trusted brand, known for its elegant, personalized designs and commitment to quality. Led by Vijay, a skilled artist with deep roots in this timeless craft, our team brings beauty and creativity to every design — whether it's for a wedding, festival, engagement, baby shower, or any joyous occasion.
+
+Our mehendi artists — both male and female — are experts in a variety of styles including Bridal, Arabic, Indo-Arabic, Dubai Style, and Traditional Indian Mehendi. We take pride in understanding our clients' preferences and transforming their ideas into stunning, intricate henna art.
                         </p>
                         <h3 className="text-2xl font-semibold text-gray-800 mb-4">
-                            Why choose Ankita for your mehendi requirements?
+                            Why choose vijay for your mehendi requirements?
                         </h3>
                         <ul className="list-disc list-inside text-lg text-gray-700 space-y-2">
-                            <li>8 years of experience in this field</li>
-                            <li>300+ orders executed successfully</li>
+                            <li>8+ Years of Experience</li>
+                            <li>1000+ orders executed successfully</li>
                             <li>Google ratings of 4.9 (80+ ratings) - Best Mehendi Artist in Varanasi</li>
-                            <li>Highly professional and innovative</li>
-                            <li>Doorstep service at a very affordable price</li>
+                            <li>Creative & Professional</li>
+                            <li> Affordable Doorstep Service</li>
                         </ul>
                     </div>
                 </div>
@@ -184,12 +192,14 @@ const Page1 = () => {
                     Mehendi Services
                 </h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
-                    <ServiceCard title="Bridal Mehendi Services" imageSrc={image1} />
-                    <ServiceCard title="Indian Mehendi Services" imageSrc={image1} />
-                    <ServiceCard title="Indo-Arabic Mehendi" imageSrc={image1} />
-                    <ServiceCard title="Arabic Mehendi Services" imageSrc={image1} />
+                    <ServiceCard title="Bridal Mehendi Services" imageSrc={image6} />
+                    <ServiceCard title="Indian Mehendi Services" imageSrc={image4} />
+                    <ServiceCard title="Indo-Arabic Mehendi" imageSrc={image8} />
+                    <ServiceCard title="Arabic Mehendi Services" imageSrc={image9} />
+                    
                     <div className="lg:col-start-2">
-                      <ServiceCard title="Dubai Style Mehendi" imageSrc={image1} />
+                      <ServiceCard title="Dubai Style Mehendi" imageSrc={image10} />
+                      
                     </div>
                 </div>
             </div>
@@ -401,14 +411,14 @@ const Page1 = () => {
             <div className="col-span-1">
               <h4 className="text-lg font-bold text-white mb-4">Contact Info</h4>
               <ul className="space-y-2">
-                <li><a href="tel:+918090729792" className="hover:text-white transition-colors duration-300">+91 8090729792</a></li>
-                <li><a href="mailto:ankitamehendiartist@gmail.com" className="hover:text-white transition-colors duration-300">ankitamehendiartist@gmail.com</a></li>
+                <li><a href="tel:+(91) 97941 26771" className="hover:text-white transition-colors duration-300"> +(91) 97941 26771</a></li>
+                <li><a href="mailto: info@gmail.com" className="hover:text-white transition-colors duration-300"> info@gmail.com</a></li>
                 <li>Varanasi, Uttar Pradesh, India</li>
               </ul>
             </div>
           </div>
           <div className="border-t border-gray-700 mt-8 pt-4 text-center text-sm">
-            © 2025 Ankita Mehendi Artist. All Rights Reserved.
+            © 2025 vijay Mehendi Artist. All Rights Reserved.
           </div>
         </footer>
       </div>
